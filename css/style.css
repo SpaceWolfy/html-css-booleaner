@@ -1,0 +1,48 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sfondo-header {
+  background-image: url(img-css/pattern.png);
+  background-size: 20% 200%;
+  background-color: rgb(51, 157, 228);
+  margin-left: 0;
+}
+
+.logo {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  width: 200px;
+}
+
+.margin-left {
+  margin-left: 8px;
+}
+
+h1 {
+  margin-top: 25px;
+  font-size: 50px;
+  margin-bottom: 0px;
+}
+
+.credits {
+  color: rgb(135, 139, 139);
+}
+
+.blue-text {
+  color: rgb(51, 157, 228);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.date {
+  font-size: smaller;
+}
