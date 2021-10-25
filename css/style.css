@@ -88,3 +88,29 @@ td {
   padding-right: 200px;
   padding-bottom: 10px;
 }
+
+.aside {
+  color: white;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.zero {
+  background-image: url(img-css/monitor.jpg);
+  background-repeat: no-repeat;
+  height: 160px;
+  width: 220px;
+  background-size: cover;
+}
+
+.one {
+  background-image: url(img-css/graph.jpg);
+  background-repeat: no-repeat;
+  height: 160px;
+  width: 220px;
+  background-size: cover;
+}
+
+.hearts {
+  color: red;
+}
