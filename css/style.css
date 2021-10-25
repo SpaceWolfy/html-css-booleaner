@@ -1,7 +1,9 @@
+/* Font della pagina impostato */
 * {
   font-family: "Roboto", sans-serif;
 }
 
+/* Applicate le proprietà generali al body */
 body {
   margin: 0;
   padding: 0;
@@ -9,39 +11,21 @@ body {
   color: black;
 }
 
+/* Lavorazione dell'Header */
 .sfondo-header {
-  background-image: url(img-css/pattern.png);
+  background: #4ea0ff url("img-css/pattern.png");
   background-size: 20% 200%;
-  background-color: rgb(51, 157, 228);
   margin-left: 0;
 }
 
-.logo {
-  margin-top: 40px;
-  margin-bottom: 10px;
-  width: 200px;
-}
-
-.margin-left {
-  margin-left: 8px;
-}
-
 h1 {
-  margin-top: 25px;
+  margin: 25px 0px 0px 0px;
   font-size: 50px;
-  margin-bottom: 0px;
 }
 
-.credits {
-  color: rgb(135, 139, 139);
-}
-
-.blue-text {
-  color: rgb(51, 157, 228);
-}
-
-.bold {
-  font-weight: bold;
+.logo {
+  margin: 40px 0px 10px 0px;
+  width: 200px;
 }
 
 .date {
@@ -49,30 +33,52 @@ h1 {
   font-weight: 400;
 }
 
-.image-desc {
+/* Fine lavorazione dell'Header */
+
+/* Creazione Proprietà generali: */
+.margin-left {
+  margin-left: 8px;
+}
+
+.credits {
+  color: rgb(135, 139, 139);
+}
+
+.blue-text {
+  color: #2bade6;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.desc {
   font-size: smaller;
 }
 
+.yellow-line {
+  background-color: yellow;
+}
+/* Fine creazione Proprietà generali */
+
+/* Sviluppo proprietà dei tag */
 ul {
-  padding-top: 0.5%;
-  padding-left: 1%;
+  padding: 0.5% 0px 0px 1%;
 }
 
 p {
   padding-top: 0.5%;
 }
 
-.yellow-line {
-  background-color: yellow;
-}
-
+/* Lavorazione proprietà tabella */
 table {
   border-collapse: collapse;
 }
 
 th {
-  background-color: rgb(80, 193, 245);
+  background-color: #20a9e5;
   text-align: left;
+  color: white;
 }
 
 tbody {
@@ -84,11 +90,12 @@ tbody {
 }
 
 td {
-  padding-top: 10px;
-  padding-right: 200px;
-  padding-bottom: 10px;
+  padding: 10px 200px 10px 0px;
 }
+/* Fine lavorazione proprietà tabella */
+/* Fine sviluppo proprietà dei tag */
 
+/* Lavorazione contenuti correlati e credits: */
 .aside {
   color: white;
   font-weight: bold;
@@ -96,18 +103,16 @@ td {
 }
 
 .zero {
-  background-image: url(img-css/monitor.jpg);
-  background-repeat: no-repeat;
-  height: 160px;
-  width: 220px;
+  background: url("img-css/monitor.jpg") no-repeat;
+  height: 170px;
+  width: 210px;
   background-size: cover;
 }
 
 .one {
-  background-image: url(img-css/graph.jpg);
-  background-repeat: no-repeat;
-  height: 160px;
-  width: 220px;
+  background: url("img-css/graph.jpg") no-repeat;
+  height: 170px;
+  width: 210px;
   background-size: cover;
 }
 
