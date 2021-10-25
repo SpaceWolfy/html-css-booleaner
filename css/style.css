@@ -6,6 +6,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: black;
 }
 
 .sfondo-header {
@@ -45,4 +46,22 @@ h1 {
 
 .date {
   font-size: smaller;
+  font-weight: 400;
+}
+
+.image-desc {
+  font-size: smaller;
+}
+
+ul {
+  padding-top: 0.5%;
+  padding-left: 1%;
+}
+
+p {
+  padding-top: 0.5%;
+}
+
+.yellow-line {
+  background-color: yellow;
 }
