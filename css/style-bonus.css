@@ -1,0 +1,124 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  background-color: #f5ecec57;
+}
+
+.sfondo-header {
+  background: #16161671
+    url("https://www.seekpng.com/png/full/7-78904_pattern-png-photo-png-arts-pattern.png");
+  background-size: 20% 200%;
+  margin-left: 0;
+}
+
+header {
+  text-align: center;
+  color: #3d3d3d;
+}
+
+h1 {
+  text-decoration-line: underline;
+  margin: 10px 0px 5px 0px;
+}
+
+main {
+  text-align: center;
+}
+
+.logo {
+  margin: 30px 0px 20px 0px;
+  width: 200px;
+}
+
+.margin-left {
+  margin-left: 6px;
+}
+
+p {
+  margin-top: 45px;
+}
+
+ul {
+  margin-top: 40px;
+  text-align: left;
+  list-style-type: upper-roman;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+
+th {
+  background-color: #16161671;
+  text-align: left;
+  color: rgb(0, 0, 0);
+  border: 2px solid black;
+}
+
+tbody {
+  background-color: #16161671;
+}
+
+.white-tr {
+  background-color: white;
+  border: 3px inset #3d3d3d;
+}
+
+td {
+  border: 1px inset white;
+  padding: 10px 200px 10px 0px;
+}
+
+.aside {
+  color: rgb(0, 0, 0);
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  font-weight: bold;
+  padding: 10px 0px 0px 10px;
+  margin-top: 5px;
+}
+
+.zero {
+  background: url("img-css/monitor.jpg") no-repeat;
+  height: 170px;
+  width: 210px;
+  background-size: cover;
+}
+
+.one {
+  background: url("img-css/graph.jpg") no-repeat;
+  height: 170px;
+  width: 210px;
+  background-size: cover;
+}
+
+.hearts {
+  color: red;
+}
+
+.credits {
+  color: rgb(0, 0, 0);
+}
+
+.blue-text {
+  color: #cc883a;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.desc {
+  font-size: smaller;
+}
+
+.yellow-line {
+  background-color: #cc883a;
+  font-weight: bold;
+}
