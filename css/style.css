@@ -65,3 +65,26 @@ p {
 .yellow-line {
   background-color: yellow;
 }
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  background-color: rgb(80, 193, 245);
+  text-align: left;
+}
+
+tbody {
+  background-color: #b1e5f2;
+}
+
+.white-tr {
+  background-color: white;
+}
+
+td {
+  padding-top: 10px;
+  padding-right: 200px;
+  padding-bottom: 10px;
+}
