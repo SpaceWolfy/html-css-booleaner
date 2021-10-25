@@ -1,0 +1,60 @@
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  color: black;
+}
+
+header {
+  text-align: center;
+}
+
+.logopage {
+  width: 200px;
+  margin: 15px 0px 20px 0px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  margin-bottom: -5px;
+  font-size: 24px;
+}
+
+li a:hover {
+  background-color: purple;
+  padding: 16px;
+  color: white;
+}
+
+hr {
+  border: none;
+  height: 50px;
+  margin-top: 0;
+  border-bottom: 5px solid purple;
+  box-shadow: 0 20px 20px -20px #333;
+  margin: -50px auto 10px;
+}
